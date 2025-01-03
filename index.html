@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patel Shlok's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 15px;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f4a261;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            flex: 1;
+            border-right: 1px solid #ddd;
+        }
+
+        .project-details {
+            flex: 2;
+            padding: 20px;
+        }
+
+        .project-details h3 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+
+        .project-details p {
+            font-size: 1em;
+            margin: 0 0 15px;
+        }
+
+        .project-details a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .project-details a:hover {
+            background: #f4a261;
+        }
+
+        #about p {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        form button {
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            transition: background 0.3s ease;
+        }
+
+        form button:hover {
+            background: #f4a261;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .certificate {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
+        .certificate img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .certificate h3 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+
+        .certificate p {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+
+        .certificate a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .certificate a:hover {
+            background: #f4a261;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Patel Shlok</h1>
+        <p>Game Developer | AI Enthusiast | Freelance Programmer</p>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project Screenshot">
+            <div class="project-details">
+                <h3>Interactive Web Portfolio</h3>
+                <p>A responsive and interactive web portfolio built with HTML, CSS, and JavaScript. This portfolio showcases all my projects and skills.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project Screenshot">
+            <div class="project-details">
+                <h3>2D Platformer Game</h3>
+                <p>A fun and engaging 2D platformer game created with Unity and C#. The game features custom levels, smooth controls, and dynamic challenges.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project Screenshot">
+            <div class="project-details">
+                <h3>Chatbot for F1 Fans</h3>
+                <p>An NLP-based chatbot built with Python that provides F1 race insights and trivia. The chatbot uses advanced libraries like NLTK and Transformers.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Patel Shlok, a passionate programmer with a background in Information Technology. I specialize in game development and AI/ML projects. My goal is to create innovative solutions and bring creative ideas to life. When I'm not coding, I enjoy exploring new technologies and diving into the world of Formula 1.</p>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certificate">
+            <img src="Screenshot 2025-01-02 202134.png" alt="Employability Skills Certificate">
+            <div>
+                <h3>Certificate of Completion – Employability Skills (JobReady)</h3>
+                <p><strong>Description:</strong> Awarded by Wadhwani Foundation and Gujarat Knowledge Society for successfully completing a 113-hour course on Employability Skills – JobReady. This certification signifies proficiency in essential workplace skills and readiness for professional environments.</p>
+                <p><strong>Issuer:</strong> Wadhwani Foundation</p>
+                <p><strong>Date:</strong> December 14, 2024</p>
+                <a href="#">View Certificate</a>
+            </div>
+        </div>
+        <div class="certificate">
+            <img src="Screenshot 2025-01-02 203531.png" alt="Employability Skills Certificate">
+            <div>
+                <h3> Certificate of Completion – Full Stack Web Development Internship</h3>
+                <p><strong>Description:</strong>  "Awarded by STEM Valley Solution for successfully completing a summer internship program focused on Full Stack Web Development (Node.js, HTML/CSS/JS). This certification reflects hands-on experience in web development, covering both frontend and backend technologies and demonstrating professional growth in software development."</p>
+                <p><strong>Issuer:</strong> STEM Valley Solution</p>
+                <p><strong>Date:</strong> August 7, 2024</p>
+                <a href="#">View Certificate</a>
+            </div>
+        </div>
+        <div class="certificate">
+            <img src="Screenshot 2025-01-02 204253.png" alt="Employability Skills Certificate">
+            <div>
+                <h3> Certificate of Completion –  Web Development Internship</h3>
+                <p><strong>Description:</strong>  "Awarded by Rife Software for successfully completing a two-week internship program in Web Development. During the internship, key skills in .NET MVC, C#, HTML, CSS, JavaScript, and SQL Server were developed, contributing to professional growth in web application development."</p>
+                <p><strong>Issuer:</strong>  Rife Software</p>
+                <p><strong>Date:</strong> August 23, 2023</p>
+                <a href="#">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/{your-form-id}" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Patel Shlok. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
